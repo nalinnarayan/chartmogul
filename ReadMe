@@ -1,0 +1,18 @@
+An app to fetch MRR data from ChartMogul and display it on a dashboard
+
+You can access the live app here: https://app.appsmith.com/app/mrr-chart/mrr-63fb32cf02d27175e02b74ef
+
+
+Parts of the app:
+1. UI built on Appsmith
+2. API written in Rust and hosted on Render
+
+The UI:
+	- Form to collect start-date, end-date, and interval values.
+	- Chart showing MRR for the given input.
+	- Table showing MRR for the given input.
+
+The API:
+    - '/getmrr' is at: src/main.rs
+
+Todo: Add authentication to the /getmrr API endpoint.
