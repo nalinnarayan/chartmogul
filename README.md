@@ -1,2 +1,0 @@
-# chartmogul
-Retrieving MRR
