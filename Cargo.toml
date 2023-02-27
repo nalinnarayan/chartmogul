@@ -1,0 +1,19 @@
+[package]
+name = "chartmogul"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.10"
+serde_urlencoded = "0.7.0"
+reqwest = { version = "0.10.9", features = ["blocking", "json"] }
+serde = "1.0.116"
+serde_derive = "1.0.116"
+dotenv = "0.15.0"
+
+[dependencies.rocket_contrib]
+version = "0.4.10"
+default-features = false
+features = ["json"]
